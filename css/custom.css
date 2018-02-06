@@ -1,3 +1,54 @@
+utf-8
+
+.header {
+  height: 168.75px;
+}
+
+#headerImage {
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+p {
+  line-height: 30px ;
+}
+
+#navbarBottom {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#carouselContainer {
+  padding-top: 0px;
+  margin-top: 0px;
+  background-color: grey;
+  height: 400px;
+}
+
+.carousel {
+  height: 400px;
+  width: 100%;
+}
+
+.carouselImage {
+  height: 400px !important;
+  width: 100%;
+  align-items: center;
+}
+
+#elementRightText {
+  margin-right: 25px;
+  line-height: 30px;
+  color: #0A1612;
+  padding-bottom: 35px;
+}
+
+#elementLeftText {
+  margin-left: 25px;
+  line-height: 30px;
+  padding-bottom: 35px;
+}
+
 .footer {
   background-color: #0A1612;
   text-align: center;
@@ -10,11 +61,6 @@
 .footerText {
   color: #D3DAD7;
 }
-
-p {
-  line-height: 30px;
-}
-
 
 
 
