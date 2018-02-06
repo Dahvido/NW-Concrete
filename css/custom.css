@@ -1,5 +1,19 @@
+.footer {
+  background-color: #0A1612;
+  text-align: center;
+}
 
+.footer a {
+  color: #D3DAD7;
+}
 
+.footerText {
+  color: #D3DAD7;
+}
+
+p {
+  line-height: 30px;
+}
 
 
 
