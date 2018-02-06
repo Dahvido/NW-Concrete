@@ -2,6 +2,7 @@ utf-8
 
 .header {
   height: 168.75px;
+  background-color: #ffffff !important;
 }
 
 #headerImage {
@@ -21,7 +22,7 @@ p {
 #carouselContainer {
   padding-top: 0px;
   margin-top: 0px;
-  background-color: grey;
+  background-color: #ffffff;
   height: 400px;
 }
 
@@ -36,30 +37,58 @@ p {
   align-items: center;
 }
 
+.elementContainer {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 350px;
+  font-size: 12pt;
+}
+
 #elementRightText {
   margin-right: 25px;
-  line-height: 30px;
-  color: #0A1612;
-  padding-bottom: 35px;
+  line-height: 40px;
+  color: #D3DAD7;
+  padding-left: 35px;
+  padding-bottom: 40px;
 }
 
 #elementLeftText {
-  margin-left: 25px;
-  line-height: 30px;
-  padding-bottom: 35px;
+  margin-left: 5px;
+  line-height: 40px;
+  padding-left: 15px;
+  padding-right: 25px;
+  padding-bottom: 40px;
+}
+
+#elementLeft {
+  background-color: #C6CDE7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 350px !important;
+}
+
+#elementRight {
+  background-color: #353535;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 350px !important;
 }
 
 .footer {
-  background-color: #0A1612;
+  background-color: grey;
   text-align: center;
+  margin-top: 0px;
+  position: absolute;
+  width: 100%;
 }
 
 .footer a {
-  color: #D3DAD7;
+  color: #353535;
 }
 
 .footerText {
-  color: #D3DAD7;
+  color: #353535;
 }
 
 
