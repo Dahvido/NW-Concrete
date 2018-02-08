@@ -1,5 +1,4 @@
 utf-8
-
 .header {
   height: 168.75px;
   background-color: #ffffff !important;
@@ -12,6 +11,7 @@ utf-8
 
 p {
   line-height: 30px ;
+  color: #555 !important;
 }
 
 #navbarBottom {
@@ -37,58 +37,19 @@ p {
   align-items: center;
 }
 
-.elementContainer {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  height: 350px;
-  font-size: 12pt;
-}
-
-#elementRightText {
-  margin-right: 25px;
-  line-height: 40px;
-  color: #D3DAD7;
-  padding-left: 35px;
-  padding-bottom: 40px;
-}
-
-#elementLeftText {
-  margin-left: 5px;
-  line-height: 40px;
-  padding-left: 15px;
-  padding-right: 25px;
-  padding-bottom: 40px;
-}
-
-#elementLeft {
-  background-color: #C6CDE7;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 350px !important;
-}
-
-#elementRight {
-  background-color: #353535;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  height: 350px !important;
-}
-
-.footer {
-  background-color: grey;
+.footer-bottom {
+  background-color: #555555;
   text-align: center;
-  margin-top: 0px;
-  position: absolute;
+  min-height: 60px;
   width: 100%;
 }
 
-.footer a {
-  color: #353535;
+.footer-bottom a {
+  color: #fffafa;
 }
 
 .footerText {
-  color: #353535;
+  color: #fffafa;
 }
 
 
@@ -105,5 +66,12 @@ p {
   }
   .navbar .navbar-collapse {
     text-align: center;
+  }
+}
+
+/* this is to shrink the text down so it can fit */
+@media (min-width: 768px) {
+  #elementLeftText #elementRightText {
+    line-height: 5px;
   }
 }
