@@ -9,6 +9,32 @@ utf-8
   max-width: 100% !important;
 }
 
+/* navbar color */
+.navbar-inverse {
+  color: #ecf0f1 !important;
+  background-color: #1864a8 !important;
+  border-color: #1864a8 !important;
+}
+
+.navbar-inverse .navbar-text {
+  color: #ecf0f1 !important;
+}
+
+.navbar-inverse > .navbar-nav > li > a {
+  color: #ecf0f1 !important;
+}
+
+.navbar-inverse .navbar-link {
+  color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #333333;
+  background-color: #c5cde4 !important;
+}
+
 p {
   line-height: 30px ;
   color: #555 !important;
@@ -38,7 +64,7 @@ p {
 }
 
 .footer-bottom {
-  background-color: #555555;
+  background-color: #1864a8;
   text-align: center;
   min-height: 60px;
   width: 100%;
